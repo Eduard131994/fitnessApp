@@ -11,7 +11,8 @@
     </head>
     <body>
         <div id="app">
-            <index />
+            <the-header></the-header>
+            <router-view></router-view>
         </div>
 
     </body>

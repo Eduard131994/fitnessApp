@@ -20,7 +20,10 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
+        "toastr": "^2.1.4",
         "vue": "^2.6.12",
+        "vue-ripple-directive": "^2.0.1",
         "vue-router": "^3.4.6"
     }
 }

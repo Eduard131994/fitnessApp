@@ -29,6 +29,7 @@ export default {
         padding: 10px;
         align-items: center;
         background: $color1;
+        color: $white;
     }
 
     .links {
@@ -45,6 +46,7 @@ export default {
                 text-decoration: none;
                 width: 100%;
                 height: 100%;
+                color: $white;
             }
         }
     }

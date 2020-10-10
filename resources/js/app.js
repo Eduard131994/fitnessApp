@@ -1,12 +1,21 @@
 require('./bootstrap');
 
-import Index from './index.vue';
 import router from './router';
 import Router from 'vue-router';
+import Ripple from 'vue-ripple-directive';
+import toastrMixin from './shared/functions/toastr';
+
+
 Vue.use(Router);
+Vue.directive('ripple', Ripple);
+Vue.mixin(toastrMixin);
+
+
+
+import TheHeader from './components/TheHeader';
 
 const app = new Vue({
     el: '#app',
-    components : {Index},
-    router,
+    components : {TheHeader},
+    router
 });
